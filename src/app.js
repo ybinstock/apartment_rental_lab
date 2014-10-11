@@ -1,14 +1,14 @@
-var Person = require('./people/person.js'),
-	Manager = require('./people/manager.js'),
-  Tenant = require('./people/tenant.js');
+var Person = require('./people/person'),
+	Manager = require('./people/manager'),
+  	Tenant = require('./people/tenant');
 
-var Building = require('./rental_property/building.js');
-var Unit = require('./rental_property/unit.js');
+var Building = require('./rental_property/building');
+var Unit = require('./rental_property/unit');
 
 // start our apartment module to export later
 var App = {};
 
-// Add our types of people to our 
+// Add our types of people to our
 // module
 App.Person = Person;
 App.Manager = Manager;
